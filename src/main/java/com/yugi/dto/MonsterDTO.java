@@ -16,6 +16,5 @@ public class MonsterDTO {
     public String race;
     public String archetype;
     private String image_url;
-    public String attribute;
 
 }
