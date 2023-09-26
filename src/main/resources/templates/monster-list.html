@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Yugi Monsters</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}">
 </head>
 <body>
 <h1>Yugi Monsters</h1>
@@ -27,7 +28,7 @@
         <td th:text="${monster.desc}"></td>
         <td th:text="${monster.race}"></td>
         <td th:text="${monster.archetype}"></td>
-        <td><img th:src="${monster.image_url}" width="100" height="100" /></td>
+        <td><img th:src="${monster.image_url}" width="400" height="500" /></td>
     </tr>
     </tbody>
 </table>
