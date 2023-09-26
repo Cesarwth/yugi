@@ -21,3 +21,7 @@ Get Method:
 
 Ejm
 `http://localhost:8080/api/monsters/Blue-Eyes`
+
+To verify the view go to this url:
+
+`http://localhost:8080/api/monsters/monsters?archetypeName=Crystron`
