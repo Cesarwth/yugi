@@ -20,7 +20,6 @@
     </tr>
     </thead>
     <tbody>
-    <!-- Utiliza Thymeleaf para iterar a través de la lista de MonsterDTO -->
     <tr th:each="monster : ${monsters}">
         <td th:text="${monster.name}"></td>
         <td th:text="${monster.type}"></td>
@@ -28,7 +27,6 @@
         <td th:text="${monster.desc}"></td>
         <td th:text="${monster.race}"></td>
         <td th:text="${monster.archetype}"></td>
-        <!-- Utiliza Thymeleaf para mostrar la imagen -->
         <td><img th:src="${monster.image_url}" width="100" height="100" /></td>
     </tr>
     </tbody>

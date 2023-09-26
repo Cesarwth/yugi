@@ -27,6 +27,6 @@ public class MonsterController {
     public String listMonstersByArchetype(@RequestParam("archetypeName") String archetypeName, Model model) {
         List<MonsterDTO> monsters = monsterService.getMonstersByArchetype(archetypeName);
         model.addAttribute("monsters", monsters);
-        return "monster-list"; // Devuelve el nombre del archivo HTML (sin extensión) que se encuentra en /templates/
+        return "monster-list";
     }
 }
